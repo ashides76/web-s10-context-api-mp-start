@@ -2,8 +2,9 @@ import React, { useContext } from 'react'
 import { QuotesContext } from '../context/quotesContext'
 
 export default function Quotes() {
-  const data = useContext(QuotesContext);
-  console.log('data:', data);
+  //// test dummy data
+  // const data = useContext(QuotesContext);
+  // console.log('data:', data);
 
   const {
     quotes,
